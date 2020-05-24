@@ -1,0 +1,114 @@
+.final
+{
+	
+	background:url(https://image.freepik.com/free-photo/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+	background-size:cover;
+	
+}
+
+.content{
+	position:relative;
+	width:100%;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	z-index: -100;
+	
+
+}
+.content h1{
+	
+	font-size: 9rem;
+	font-family: 'Dancing Script';
+	color: black;
+	z-index: 1;
+	margin-left:100px;
+	background: #a3a375;
+
+}
+.video-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+}
+
+img{
+	float:right;
+	margin-right: 20%;
+	
+}
+h4{
+	font-size:30px;
+	color: #4d0026;
+	z-index: 1;
+	padding-left: 10px;
+	
+}
+a{
+	color:#b37700;
+	z-index: 1;
+}
+a:hover{
+	color: red;
+	z-index: 1;
+}
+
+.pa{
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	font-weight: bolder;
+	color: black;
+	z-index: 1;
+	padding-left: 20px;
+	padding-top: 30px;
+
+
+}
+span{
+	font-weight: bolder;
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	color: 	yellow;
+	text-transform: uppercase;
+	z-index: 1;
+
+}
+.more{
+	color: #004d00;
+	z-index: 1;
+	font-size: 20px;
+}
+.covid{
+	border:20px solid black;
+	height: 300px;
+	background-color:red;
+	opacity: 1;
+	margin: auto auto 150px auto;
+	width: 550px;
+	z-index: 1;
+
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 0 0 0;
+    border-radius: 20px;
+    z-index: 1;
+}
+hr { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 10px;
+    margin-top: 31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+ }
+ 
